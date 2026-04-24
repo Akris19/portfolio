@@ -2,12 +2,42 @@
 layout: default
 ---
 
-<article class="project">
-  <h1>{{ page.title }}</h1>
+<article class="project-page">
+  <p class="project-page__back">
+    <a href="{{ '/' | relative_url }}#projects">Back to projects</a>
+  </p>
 
-  {% if page.technologies %}
-  <p class="tech"><strong>Technologies:</strong> {{ page.technologies }}</p>
+  <header class="project-page__header">
+    {% if page.year %}
+    <p class="eyebrow">{{ page.year }}</p>
+    {% endif %}
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.summary %}
+    <p class="project-page__summary">{{ page.summary }}</p>
+    {% endif %}
+
+    <div class="project-page__facts">
+      {% if page.role %}
+      <p><strong>Role</strong> {{ page.role }}</p>
+      {% endif %}
+      {% if page.status %}
+      <p><strong>Status</strong> {{ page.status }}</p>
+      {% endif %}
+      {% if page.technologies %}
+      <p><strong>Tools</strong> {{ page.technologies }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if page.cover %}
+  <figure class="project-page__cover">
+    <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover image">
+  </figure>
   {% endif %}
 
-  {{ content }}
+  <div class="project-page__content">
+    {{ content }}
+  </div>
 </article>

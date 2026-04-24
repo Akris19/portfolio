@@ -1,0 +1,17 @@
+title: Andreas Kristensen
+description: Portfolio of projects, prototypes, and experiments
+url: "https://akris19.github.io"
+baseurl: "/portfolio"
+lang: en
+markdown: kramdown
+permalink: pretty
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
