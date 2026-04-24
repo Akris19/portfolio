@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <a href="{{ site.baseurl }}/"><strong>{{ site.title }}</strong></a>
+    <nav>
+      <a href="{{ site.baseurl }}/">Portfolio</a>
+      <a href="{{ site.baseurl }}/publications/">Publications</a>
+      <a href="{{ site.baseurl }}/teaching/">Teaching</a>
+      <a href="{{ site.baseurl }}/about/">About</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
