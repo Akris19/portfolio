@@ -16,7 +16,7 @@
       </a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}#projects">Projects</a>
-        <a href="{{ '/' | relative_url }}#about">About</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
         <a href="https://github.com/akris19">GitHub</a>
       </nav>
     </header>
@@ -29,5 +29,58 @@
       <p>Built with GitHub Pages, Jekyll, and Markdown project files.</p>
     </footer>
   </div>
+
+  <script>
+    (function () {
+      var activeModal = null;
+      var lastTrigger = null;
+
+      function openModal(modal, trigger) {
+        if (!modal) return;
+        if (activeModal && activeModal !== modal) {
+          activeModal.hidden = true;
+        }
+        activeModal = modal;
+        lastTrigger = trigger || document.activeElement;
+        modal.hidden = false;
+        document.body.classList.add('modal-open');
+
+        var closeButton = modal.querySelector('.project-modal__close');
+        if (closeButton) closeButton.focus();
+      }
+
+      function closeModal(modal) {
+        if (!modal) return;
+        modal.hidden = true;
+        document.body.classList.remove('modal-open');
+
+        if (lastTrigger && typeof lastTrigger.focus === 'function') {
+          lastTrigger.focus();
+        }
+
+        activeModal = null;
+      }
+
+      document.querySelectorAll('[data-modal-target]').forEach(function (trigger) {
+        trigger.addEventListener('click', function () {
+          var modalId = trigger.getAttribute('data-modal-target');
+          openModal(document.getElementById(modalId), trigger);
+        });
+      });
+
+      document.querySelectorAll('[data-modal-close]').forEach(function (element) {
+        element.addEventListener('click', function () {
+          var modal = element.closest('.project-modal');
+          closeModal(modal);
+        });
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && activeModal) {
+          closeModal(activeModal);
+        }
+      });
+    }());
+  </script>
 </body>
 </html>
