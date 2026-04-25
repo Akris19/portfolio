@@ -5,9 +5,7 @@ title: Portfolio
 
 <section class="section" id="projects">
   <div class="section__intro">
-    <p class="eyebrow">Selected Work</p>
     <h2>Projects</h2>
-    <p>Each project card opens inline, so visitors can browse the work without leaving the portfolio overview.</p>
   </div>
 
   {% assign projects = site.projects | sort: "order" %}
