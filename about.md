@@ -5,24 +5,22 @@ permalink: /about/
 intro: I build interactive systems, prototypes, and digital experiences with a focus on making technology feel tangible, approachable, and engaging.
 ---
 
-I use this portfolio to document projects across prototyping, programming, interaction design, and digital fabrication. I like work that connects physical materials, playful interfaces, and technical systems in ways that feel understandable to the people using them.
+I am a Software Engineering MSc student at SDU specializing in interactive systems for learning, with a strong focus on teaching programming and technology to children and young learners. My work combines software development, hardware integration, and pedagogy to create engaging, hands-on learning experiences.
 
-My projects are usually driven by a mix of curiosity and experimentation. That means I often work across multiple tools and disciplines in the same project, from coding and electronics to 3D workflows, visual design, and user interaction.
+I have experience developing educational platforms that integrate block-based and text-based programming with microcontrollers, as well as designing cyber-physical systems that merge digital interaction with physical play. My projects often incorporate emerging technologies such as machine learning, computer vision, and procedural generation.
 
-## What I Focus On
+Alongside my academic work, I have contributed to multiple research and development projects within STEM education, collaborating with international partners and developing teaching concepts, workshops, and learning materials.
 
-- Interactive prototypes and installations
-- Tangible and spatial interfaces
-- Web-based and real-time experiences
-- Physical computing and embedded systems
-- Clear visual presentation of technical ideas
+Since 2022, I have volunteered at Teknologiskolen, where I have taught programming, software development, robotics, electronics, and mechanical engineering. I have been responsible for designing curricula, materials, and project-based learning experiences across six camps and two seasonal courses.
 
-## How This Site Works
-
-This portfolio is built with GitHub Pages and Jekyll. Each project lives in its own Markdown file inside `_projects/`, and media such as images and short videos can be stored in `assets/resources/` and embedded directly into the project content.
-
-That setup keeps the site simple to maintain while still making it easy to add new work over time.
+Overall, my profile sits at the intersection of software engineering, education, and interactive design, with a focus on making complex technologies accessible, creative, and meaningful for learners.
 
 ## Contact
 
-You can update this page with your email, LinkedIn, CV link, or any other contact details you want visitors to see.
+Email:
+anders_risager@hotmail.com
+akris19@student.sdu.dk 
+
+Phone:
++45 61 54 63 78
+
