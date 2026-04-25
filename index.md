@@ -3,20 +3,6 @@ layout: default
 title: Portfolio
 ---
 
-<section class="hero">
-  <div class="hero__content">
-    <p class="eyebrow">Portfolio</p>
-    <h1>Interactive projects, prototypes, and digital experiments.</h1>
-    <p class="lead">
-      Browse selected projects here, and use the About page for background, focus areas, and contact details.
-    </p>
-    <div class="hero__actions">
-      <a class="button" href="#projects">Browse projects</a>
-      <a class="button button--secondary" href="{{ '/about/' | relative_url }}">About me</a>
-    </div>
-  </div>
-</section>
-
 <section class="section" id="projects">
   <div class="section__intro">
     <p class="eyebrow">Selected Work</p>
