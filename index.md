@@ -14,6 +14,12 @@ title: Portfolio
     {% for project in projects %}
     {% assign modal_id = 'project-modal-' | append: forloop.index %}
     <button class="project-card" type="button" data-modal-target="{{ modal_id }}" aria-haspopup="dialog" aria-controls="{{ modal_id }}">
+      {% if project.cover %}
+      <figure class="project-card__cover">
+        <img src="{{ project.cover | relative_url }}" alt="{{ project.title }} cover image">
+      </figure>
+      {% endif %}
+
       <div class="project-card__meta">
         <span>{{ project.year | default: "Project" }}</span>
         {% if project.status %}

@@ -254,6 +254,19 @@ h3 {
   transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
 
+.project-card__cover {
+  margin: -1.4rem -1.4rem 0;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-card__cover img {
+  aspect-ratio: 16 / 9;
+  margin: 0;
+  border-radius: 22px 22px 0 0;
+  object-fit: cover;
+}
+
 .project-card:hover {
   transform: translateY(-4px);
   border-color: rgba(140, 79, 43, 0.32);
