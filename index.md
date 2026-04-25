@@ -8,11 +8,11 @@ title: Portfolio
     <p class="eyebrow">Portfolio</p>
     <h1>Interactive projects, prototypes, and digital experiments.</h1>
     <p class="lead">
-      This site is built so each project can live in its own Markdown file, with images and short videos stored in a resource folder inside <code>assets/resources/</code>.
+      Browse selected projects here, and use the About page for background, focus areas, and contact details.
     </p>
     <div class="hero__actions">
       <a class="button" href="#projects">Browse projects</a>
-      <a class="button button--secondary" href="https://github.com/akris19">View GitHub</a>
+      <a class="button button--secondary" href="{{ '/about/' | relative_url }}">About me</a>
     </div>
   </div>
 </section>
@@ -94,17 +94,4 @@ title: Portfolio
   {% else %}
   <p>No projects are published yet.</p>
   {% endif %}
-</section>
-
-<section class="section section--split" id="about">
-  <div class="section__intro">
-    <p class="eyebrow">About This Setup</p>
-    <h2>Markdown-driven portfolio</h2>
-  </div>
-  <div class="notes">
-    <p>Create project pages in <code>_projects/your-project.md</code> with front matter like title, year, summary, and technologies.</p>
-    <p>Store images and videos in <code>assets/resources/your-project/</code>, then embed them directly inside the Markdown page.</p>
-    <p>This keeps GitHub Pages simple: content in Markdown, layout in Jekyll, and media in one predictable folder structure.</p>
-    <p><a class="button button--secondary" href="{{ '/about/' | relative_url }}">Open full About page</a></p>
-  </div>
 </section>
