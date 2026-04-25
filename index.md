@@ -28,9 +28,6 @@ title: Portfolio
       </div>
       <h3>{{ project.title }}</h3>
       <p>{{ project.summary | default: project.excerpt | strip_html | truncate: 180 }}</p>
-      {% if project.technologies %}
-      <p class="project-card__tech">{{ project.technologies }}</p>
-      {% endif %}
       <span class="project-card__cta">Open project</span>
     </button>
     {% endfor %}
@@ -45,6 +42,15 @@ title: Portfolio
 
       <div class="project-modal__inner">
         <header class="project-modal__header">
+          {% if project.technologies %}
+          <div class="project-tech-list" aria-label="Technologies">
+            {% assign technologies = project.technologies | split: ', ' %}
+            {% for technology in technologies %}
+            <span class="project-tech-list__item">{{ technology }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+
           {% if project.year %}
           <p class="eyebrow">{{ project.year }}</p>
           {% endif %}
@@ -62,17 +68,8 @@ title: Portfolio
             {% if project.status %}
             <p><strong>Status</strong> {{ project.status }}</p>
             {% endif %}
-            {% if project.technologies %}
-            <p><strong>Tools</strong> {{ project.technologies }}</p>
-            {% endif %}
           </div>
         </header>
-
-        {% if project.cover %}
-        <figure class="project-modal__cover">
-          <img src="{{ project.cover | relative_url }}" alt="{{ project.title }} cover image">
-        </figure>
-        {% endif %}
 
         <div class="project-modal__content">
           {{ project.content }}

@@ -8,6 +8,15 @@ layout: default
   </p>
 
   <header class="project-page__header">
+    {% if page.technologies %}
+    <div class="project-tech-list" aria-label="Technologies">
+      {% assign technologies = page.technologies | split: ', ' %}
+      {% for technology in technologies %}
+      <span class="project-tech-list__item">{{ technology }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
     {% if page.year %}
     <p class="eyebrow">{{ page.year }}</p>
     {% endif %}
@@ -17,19 +26,7 @@ layout: default
     {% if page.summary %}
     <p class="project-page__summary">{{ page.summary }}</p>
     {% endif %}
-
-    <div class="project-page__facts">
-      {% if page.technologies %}
-      <p><strong>Tools</strong> {{ page.technologies }}</p>
-      {% endif %}
-    </div>
   </header>
-
-  {% if page.cover %}
-  <figure class="project-page__cover">
-    <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover image">
-  </figure>
-  {% endif %}
 
   <div class="project-page__content">
     {{ content }}
