@@ -1,7 +1,8 @@
 ---
 title: Din Planteven
-summary: Din Planteven er en applikaƟon designet Ɵl at hjælpe brugeren med at danne overblik over sine planter.
+summary: Din Planteven is a mobile application design to help the user with keeping their plants alive.
 year: 2022
 technologies: Unity, C#, Adobe Illustrator, Adobe After Effects
-order: 14
+order: 9
 ---
+
