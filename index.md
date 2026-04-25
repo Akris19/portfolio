@@ -43,12 +43,7 @@ title: Portfolio
       <div class="project-modal__inner">
         <header class="project-modal__header">
           {% if project.technologies %}
-          <div class="project-tech-list" aria-label="Technologies">
-            {% assign technologies = project.technologies | split: ', ' %}
-            {% for technology in technologies %}
-            <span class="project-tech-list__item">{{ technology }}</span>
-            {% endfor %}
-          </div>
+          <p class="project-tech-line"><strong>Technologies:</strong> {{ project.technologies }}</p>
           {% endif %}
 
           {% if project.year %}
@@ -61,14 +56,6 @@ title: Portfolio
           <p class="project-modal__summary">{{ project.summary }}</p>
           {% endif %}
 
-          <div class="project-modal__facts">
-            {% if project.role %}
-            <p><strong>Role</strong> {{ project.role }}</p>
-            {% endif %}
-            {% if project.status %}
-            <p><strong>Status</strong> {{ project.status }}</p>
-            {% endif %}
-          </div>
         </header>
 
         <div class="project-modal__content">

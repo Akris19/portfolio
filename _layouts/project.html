@@ -9,12 +9,7 @@ layout: default
 
   <header class="project-page__header">
     {% if page.technologies %}
-    <div class="project-tech-list" aria-label="Technologies">
-      {% assign technologies = page.technologies | split: ', ' %}
-      {% for technology in technologies %}
-      <span class="project-tech-list__item">{{ technology }}</span>
-      {% endfor %}
-    </div>
+    <p class="project-tech-line"><strong>Technologies:</strong> {{ page.technologies }}</p>
     {% endif %}
 
     {% if page.year %}
