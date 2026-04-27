@@ -7,6 +7,12 @@ order: 11
 cover: /assets/resources/pinboard.png
 ---
 
+{% raw %}
+```md
+![Prototype setup]({{ 'assets/resources/pinboard.png' | relative_url }})
+```
+{% endraw %}
+
 A cross-media mystery project where the audience becomes part of the investigation. Through a comic, mini-game, website, Facebook page, and Google Forms report, users can collect clues and submit their own theory about the culprit.
 
 {% raw %}

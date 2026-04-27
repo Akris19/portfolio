@@ -7,13 +7,14 @@ order: 9
 cover: /assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png
 ---
 
-A playful mobile app prototype designed to help people understand when their plants need water. Through simple visuals, animated feedback, and plant customisation.
-
 {% raw %}
 ```md
 ![Prototype setup]({{ '/assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png' | relative_url }})
 ```
 {% endraw %}
+
+
+A playful mobile app prototype designed to help people understand when their plants need water. Through simple visuals, animated feedback, and plant customisation.
 
 
 ## The idea
