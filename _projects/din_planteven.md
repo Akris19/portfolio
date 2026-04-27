@@ -7,15 +7,9 @@ order: 9
 cover: /assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png
 ---
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png' | relative_url }})
-```
-{% endraw %}
-
 
 A playful mobile app prototype designed to help people understand when their plants need water. Through simple visuals, animated feedback, and plant customisation.
-
 
 ## The idea
 
@@ -23,17 +17,9 @@ Din Planteven started as a larger IoT concept where sensors could measure soil m
 
 The goal was to design a simple app that gives users a quick overview of their plants’ health and helps them build a better watering routine. The app uses a sunflower character, a watering can, and visual health stages to communicate whether the plants need attention.
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-25 14-04-59.png' | relative_url }})
-```
-{% endraw %}
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-25 14-04-49.png' | relative_url }})
-```
-{% endraw %}
 
 ## Target
 
@@ -41,12 +27,7 @@ The app was designed for people who like having plants but do not know much abou
 
 The focus was on creating a fast and friendly user journey where the user could understand the status of their plants with as few clicks as possible.
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-25 14-05-11.png' | relative_url }})
-```
-{% endraw %}
-
 
 ## The process
 

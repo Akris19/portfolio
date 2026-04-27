@@ -7,11 +7,7 @@ order: 3
 cover: /assets/resources/trash.png
 ---
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/trash.png' | relative_url }})
-```
-{% endraw %}
 
 An interactive web documentary that makes waste sorting easier to understand through animation, visual storytelling, and playful interaction. The project turns dry public information into a more engaging learning experience for citizens in Odense.
 
@@ -23,11 +19,7 @@ The project focused on waste sorting in Odense and explored how public informati
 
 The goal was to help users understand what to sort, why sorting matters, and how different types of waste should be handled. The project built on Odense Renovation’s existing sorting brochure, but aimed to make the information more visual, easier to follow, and more memorable.
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/truck.png' | relative_url }})
-```
-{% endraw %}
 
 ## Target
 
@@ -35,17 +27,9 @@ The target audience was citizens in Odense who need to sort household waste but 
 
 The project was especially aimed at users who want quick, practical guidance: what belongs in each bin, why it matters, and what happens to the waste after collection. The local Odense setting was important because waste sorting systems can vary between municipalities.
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png' | relative_url }})
-```
-{% endraw %}
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-28-05.png' | relative_url }})
-```
-{% endraw %}
 
 ## The process
 
@@ -57,32 +41,13 @@ Several tests and feedback rounds were conducted. Early prototypes were tested w
 
 The final webdoc included scroll-based animations, interactive flip cards with extra information, a progress truck, and a small sorting game where users could test their knowledge. The main learning from the project was the value of narrowing the scope earlier, testing more often, and using visuals and interaction to make educational information easier to understand.
 
-{% raw %}
-```md
-![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-28-05.png' | relative_url }})
-```
-{% endraw %}
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-28-05.png' | relative_url }})
-```
-{% endraw %}   
 
-{% raw %}
-```md
+![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-28-05.png' | relative_url }})
+
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-30-17.png' | relative_url }})
-```
-{% endraw %}   
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png' | relative_url }})
-```
-{% endraw %}    
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-30-50.png' | relative_url }})
-```
-{% endraw %}   

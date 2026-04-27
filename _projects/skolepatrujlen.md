@@ -7,19 +7,11 @@ order: 11
 cover: /assets/resources/pinboard.png
 ---
 
-{% raw %}
-```md
 ![Prototype setup]({{ 'assets/resources/pinboard.png' | relative_url }})
-```
-{% endraw %}
 
 A cross-media mystery project where the audience becomes part of the investigation. Through a comic, mini-game, website, Facebook page, and Google Forms report, users can collect clues and submit their own theory about the culprit.
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png' | relative_url }})
-```
-{% endraw %}
 
 ## The idea
 
@@ -27,22 +19,11 @@ Skolepatruljen is a cross-media detective story inspired by crime narratives, es
 
 The goal was to create an interactive mystery universe where the audience does not only read the story, but also investigates alongside the characters. Users can explore clues through games, follow updates on Facebook, and submit an “investigation report” through Google Forms to guess who committed the crime.
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/page1.png' | relative_url }})
-```
-{% endraw %}
-{% raw %}
-```md
-![Prototype setup]({{ '/assets/resources/page2.png' | relative_url }})
-```
-{% endraw %}
-{% raw %}
-```md
-![Prototype setup]({{ '/assets/resources/page3.png' | relative_url }})
-```
-{% endraw %}
 
+![Prototype setup]({{ '/assets/resources/page2.png' | relative_url }})
+
+![Prototype setup]({{ '/assets/resources/page3.png' | relative_url }})
 
 ## Target
 
@@ -62,8 +43,4 @@ No formal user test is described in the project report, but the project was buil
 
 The main focus of the process was to create a connected cross-media experience where each platform had a clear role: the comic delivered the story, the game provided investigation, Facebook created communication, the website connected everything, and Google Forms allowed the audience to solve the case.
 
-{% raw %}
-```md
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-19-53.png' | relative_url }})
-```
-{% endraw %}
