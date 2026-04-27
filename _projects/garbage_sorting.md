@@ -27,9 +27,6 @@ The target audience was citizens in Odense who need to sort household waste but 
 
 The project was especially aimed at users who want quick, practical guidance: what belongs in each bin, why it matters, and what happens to the waste after collection. The local Odense setting was important because waste sorting systems can vary between municipalities.
 
-![Prototype setup]({{ '/assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png' | relative_url }})
-
-![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-28-05.png' | relative_url }})
 
 ## The process
 
@@ -41,13 +38,8 @@ Several tests and feedback rounds were conducted. Early prototypes were tested w
 
 The final webdoc included scroll-based animations, interactive flip cards with extra information, a progress truck, and a small sorting game where users could test their knowledge. The main learning from the project was the value of narrowing the scope earlier, testing more often, and using visuals and interaction to make educational information easier to understand.
 
-
-![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-28-05.png' | relative_url }})
-
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-28-05.png' | relative_url }})
 
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-30-17.png' | relative_url }})
-
-![Prototype setup]({{ '/assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png' | relative_url }})
 
 ![Prototype setup]({{ '/assets/resources/Screenshot from 2026-04-27 19-30-50.png' | relative_url }})

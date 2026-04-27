@@ -11,8 +11,6 @@ cover: /assets/resources/pinboard.png
 
 A cross-media mystery project where the audience becomes part of the investigation. Through a comic, mini-game, website, Facebook page, and Google Forms report, users can collect clues and submit their own theory about the culprit.
 
-![Prototype setup]({{ '/assets/resources/Screenshot%20from%202026-04-25%2014-07-02.png' | relative_url }})
-
 ## The idea
 
 Skolepatruljen is a cross-media detective story inspired by crime narratives, escape rooms, and interactive puzzle games. The project is built around a three-part comic, where each part represents an act in the story.
@@ -20,10 +18,6 @@ Skolepatruljen is a cross-media detective story inspired by crime narratives, es
 The goal was to create an interactive mystery universe where the audience does not only read the story, but also investigates alongside the characters. Users can explore clues through games, follow updates on Facebook, and submit an “investigation report” through Google Forms to guess who committed the crime.
 
 ![Prototype setup]({{ '/assets/resources/page1.png' | relative_url }})
-
-![Prototype setup]({{ '/assets/resources/page2.png' | relative_url }})
-
-![Prototype setup]({{ '/assets/resources/page3.png' | relative_url }})
 
 ## Target
 
