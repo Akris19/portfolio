@@ -33,7 +33,7 @@ The project was aimed at first-year high school students who need to practise ba
 The experience was designed for classroom use, where two students work together: one student is inside the VR environment, while the other supports with formulas, calculations, and input. This creates a learning situation where communication becomes part of the math practice.
 
 <figure class="media">
-  <img src="{{ '/assets/resources/mathbox-user-test_!.png' | relative_url }}" alt="Follow students trying the low-fidelity prototype">
+  <img src="{{ '/assets/resources/mathbox-user-test_1.png' | relative_url }}" alt="Follow students trying the low-fidelity prototype">
   <figcaption>Follow students trying the low-fidelity prototype</figcaption>
 </figure>
 

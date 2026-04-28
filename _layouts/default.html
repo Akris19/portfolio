@@ -42,6 +42,12 @@
         modal.hidden = false;
         document.body.classList.add('modal-open');
 
+        modal.querySelectorAll('img[src$=".gif"], img[src*=".gif?"]').forEach(function (image) {
+          var currentSrc = image.getAttribute('src');
+          image.setAttribute('src', '');
+          image.setAttribute('src', currentSrc);
+        });
+
         var closeButton = modal.querySelector('.project-modal__close');
         if (closeButton) closeButton.focus();
       }
