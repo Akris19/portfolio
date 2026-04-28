@@ -38,8 +38,8 @@ The data processing guide teaches pupils how to access collected micro:bit data,
 
 <div class="media-grid media-grid--3">
   <figure class="media-grid__item"><img src="{{ '/assets/resources/diasper-green-workshop-booklet.png' | relative_url }}" alt=""></figure>
-  <figure class="media-grid__item"><img src="{{ '/assets/resources/diasper-green-microbit-setup.png' | relative_url }}" alt=""></figure>
   <figure class="media-grid__item"><img src="{{ '/assets/resources/diasper-green-coding-setup.png' | relative_url }}" alt=""></figure>
+  <figure class="media-grid__item"><img src="{{ '/assets/resources/diasper-green-microbit-setup.png' | relative_url }}" alt=""></figure>
 </div>
 
 ## Responsibilities
