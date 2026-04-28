@@ -526,9 +526,18 @@ h3 {
   margin-bottom: 0;
 }
 
-.project-modal__content h2,
+.project-modal__content h2 {
+  margin-top: 2rem;
+  font-size: clamp(2.6rem, 6vw, 5.5rem);
+  font-weight: 600;
+  line-height: 1.08;
+}
+
 .project-modal__content h3 {
   margin-top: 2rem;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 600;
+  line-height: 1.12;
 }
 
 .project-modal__content ul,
@@ -629,9 +638,18 @@ h3 {
   font-size: 1.12rem;
 }
 
-.project-page__content h2,
+.project-page__content h2 {
+  margin-top: 2rem;
+  font-size: clamp(2.6rem, 6vw, 5.5rem);
+  font-weight: 600;
+  line-height: 1.08;
+}
+
 .project-page__content h3 {
   margin-top: 2rem;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 600;
+  line-height: 1.12;
 }
 
 .project-page__content ul,

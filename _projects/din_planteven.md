@@ -10,7 +10,7 @@ cover: /assets/resources/planteven-cover.png
 
 A playful mobile app prototype designed to help people understand when their plants need water. Through simple visuals, animated feedback, and plant customisation, Din Planteven turns plant care into an easy daily routine.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/planteven-cover.png' | relative_url }}" alt="Prototype setup">
   <figcaption>Prototype setup</figcaption>
 </figure>
