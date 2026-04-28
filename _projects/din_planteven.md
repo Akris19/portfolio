@@ -10,7 +10,10 @@ cover: /assets/resources/planteven-cover.png
 
 A playful mobile app prototype designed to help people understand when their plants need water. Through simple visuals, animated feedback, and plant customisation, Din Planteven turns plant care into an easy daily routine.
 
-![Prototype setup]({{ '/assets/resources/planteven-cover.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/planteven-cover.png' | relative_url }}" alt="Prototype setup">
+  <figcaption>Prototype setup</figcaption>
+</figure>
 
 ## The idea
 
@@ -18,7 +21,10 @@ Din Planteven started as a larger IoT concept where sensors could measure soil m
 
 The goal was to design a simple app that gives users a quick overview of their plants’ health and helps them build a better watering routine. The app uses a sunflower character, a watering can, and visual health stages to communicate whether the plants need attention.
 
-![Early sketches]({{ '/assets/resources/planteven-sketches.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/planteven-sketches.png' | relative_url }}" alt="Early sketches">
+  <figcaption>Early sketches</figcaption>
+</figure>
 
 ## Target
 
@@ -26,7 +32,10 @@ The app was designed for people who like having plants but do not know much abou
 
 The focus was on creating a fast and friendly user journey where the user could understand the status of their plants with as few clicks as possible.
 
-![Visual direction]({{ '/assets/resources/planteven-drawings.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/planteven-drawings.png' | relative_url }}" alt="Visual direction">
+  <figcaption>Visual direction</figcaption>
+</figure>
 
 ## The process
 
@@ -40,6 +49,12 @@ Testing was conducted with three users. They tested the prototype individually w
 
 However, the calendar icon was misunderstood, the visual style lacked depth, and the plant customisation flow needed clearer guidance. The main learning from the project was the importance of planning, early user testing, and building iteratively instead of spending too much time polishing details before the core experience has been validated.
 
-![Home screen stages]({{ '/assets/resources/planteven-home-stages.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/planteven-home-stages.png' | relative_url }}" alt="Home screen stages">
+  <figcaption>Home screen stages</figcaption>
+</figure>
 
-![Plant customisation]({{ '/assets/resources/planteven-customisation.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/planteven-customisation.png' | relative_url }}" alt="Plant customisation">
+  <figcaption>Plant customisation</figcaption>
+</figure>

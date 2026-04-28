@@ -8,7 +8,10 @@ status: Finished
 cover: /assets/resources/diasper-green-cover.png
 ---
 
-![DiASPer Green]({{ '/assets/resources/diasper-green-cover.png' | relative_url }})
+<figure class="media media--medium">
+  <img src="{{ '/assets/resources/diasper-green-cover.png' | relative_url }}" alt="DiASPer Green">
+  <figcaption>DiASPer Green</figcaption>
+</figure>
 
 DiASper Green was a Danish-German educational project focused on digital technologies, environmental measurement, climate protection, and STEM education. The project aimed to give young people practical experience with tools used to collect and analyse environmental and climate data.
 
@@ -28,7 +31,10 @@ The learning activities introduced pupils to sensors, circuits, programming, and
 
 I was also responsible for organising and hosting a DiASper Green workshop at Økolariet in Vejle, where around 100 pupils aged 14–16 from Denmark and Germany participated. The workshop focused on environmental measurement, micro:bit programming, data collection, and basic data processing.
 
-![Økolariet - workshop location]({{ '/assets/resources/diasper-green-oekolariet.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/diasper-green-oekolariet.png' | relative_url }}" alt="Økolariet - workshop location">
+  <figcaption>Økolariet - workshop location</figcaption>
+</figure>
 
 As part of the workshop, I created learning materials that introduced pupils to measuring with micro:bit and working with collected data on a computer:
 
@@ -37,9 +43,15 @@ As part of the workshop, I created learning materials that introduced pupils to 
 The data processing guide teaches pupils how to access collected micro:bit data, view it in a browser, export it, and continue working with it in Excel.
 
 <div class="media-grid media-grid--3">
-  <figure class="media-grid__item"><img src="{{ '/assets/resources/diasper-green-workshop-booklet.png' | relative_url }}" alt=""></figure>
-  <figure class="media-grid__item"><img src="{{ '/assets/resources/diasper-green-coding-setup.png' | relative_url }}" alt=""></figure>
-  <figure class="media-grid__item"><img src="{{ '/assets/resources/diasper-green-microbit-setup.png' | relative_url }}" alt=""></figure>
+  <figure class="media-grid__item">
+    <img src="{{ '/assets/resources/diasper-green-workshop-booklet.png' | relative_url }}" alt="Workshop booklet and participants">
+  </figure>
+  <figure class="media-grid__item">
+    <img src="{{ '/assets/resources/diasper-green-coding-setup.png' | relative_url }}" alt="Coding and data logging setup">
+  </figure>
+  <figure class="media-grid__item">
+    <img src="{{ '/assets/resources/diasper-green-microbit-setup.png' | relative_url }}" alt="Micro:bit setup and mobile interface">
+  </figure>
 </div>
 
 ## Responsibilities

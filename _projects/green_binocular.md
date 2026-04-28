@@ -10,7 +10,10 @@ cover: /assets/resources/virtual-binoculars.png
 
 A VR installation concept that lets visitors look into a changing water landscape. By interacting with the setup, users can see how farming, nutrients, and nitrate levels affect rivers and local ecosystems.
 
-![Prototype setup]({{ '/assets/resources/virtual-binoculars.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/virtual-binoculars.png' | relative_url }}" alt="Prototype setup">
+  <figcaption>Prototype setup</figcaption>
+</figure>
 
 ## The idea
 
@@ -18,7 +21,10 @@ The Virtual Binoculars was designed as an interactive VR exhibit for Økolariet.
 
 The goal was to show how a river area can change depending on the amount of nutrients entering the water from agriculture. Through VR, the user could experience a visual transition from a damaged environment with too much nitrate to a healthier, more natural landscape with clearer water and more life.
 
-![Original binocular inspiration]({{ '/assets/resources/okolariet-binoculars.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/okolariet-binoculars.png' | relative_url }}" alt="Original binocular inspiration">
+  <figcaption>Original binocular inspiration</figcaption>
+</figure>
 
 ## Target
 
@@ -26,7 +32,10 @@ The project was aimed at visitors at Økolariet, especially people who learn bet
 
 The experience was designed to make environmental information easier to understand by letting users see the consequences of pollution and nutrient overload directly in a virtual scene.
 
-![User testing setup]({{ '/assets/resources/virtual-binoculars-test.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/virtual-binoculars-test.png' | relative_url }}" alt="User testing setup">
+  <figcaption>User testing setup</figcaption>
+</figure>
 
 ## The process
 
@@ -42,5 +51,11 @@ However, the users only fully understood the purpose after receiving context, an
 
 The main learning was that VR can support environmental education by creating immersion, but the experience still needs supporting text or other media to communicate deeper knowledge clearly.
 
-![Hardware prototype]({{ '/assets/resources/virtual-binoculars-hardware.png' | relative_url }})
-![Video of prototype]({{ '/assets/resources/virtual-binoculars-demo.gif' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/virtual-binoculars-hardware.png' | relative_url }}" alt="Hardware prototype">
+  <figcaption>Hardware prototype</figcaption>
+</figure>
+<figure class="media">
+  <img src="{{ '/assets/resources/virtual-binoculars-demo.gif' | relative_url }}" alt="Video of prototype">
+  <figcaption>Video of prototype</figcaption>
+</figure>

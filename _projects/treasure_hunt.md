@@ -10,7 +10,10 @@ cover: /assets/resources/treasure-hunt-cover.png
 
 A two-player treasure hunt game set in a dark pyramid labyrinth. Players must collect treasures, manage limited light, avoid mummies, and escape the maze before time runs out.
 
-![Treasure Hunt gameplay overview]({{ '/assets/resources/treasure-hunt-cover.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/treasure-hunt-cover.png' | relative_url }}" alt="Treasure Hunt gameplay overview">
+  <figcaption>Treasure Hunt gameplay overview</figcaption>
+</figure>
 
 ## The idea
 
@@ -20,7 +23,10 @@ The goal was to create a simple but tense game experience where players compete 
 
 The final concept focused on fast rounds, simple controls, and a clear objective: collect enough treasure and get out before the time runs out.
 
-![Early level and puzzle sketches]({{ '/assets/resources/treasure-hunt-early-sketches.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/treasure-hunt-early-sketches.png' | relative_url }}" alt="Early level and puzzle sketches">
+  <figcaption>Early level and puzzle sketches</figcaption>
+</figure>
 
 ## Target
 
@@ -28,7 +34,10 @@ The project was aimed at players who enjoy local multiplayer, simple competitive
 
 The design focused on being easy to understand and quick to play. The controls were kept simple, using WASD for one player and the arrow keys for the other, so two players could play on the same keyboard without needing extra equipment.
 
-![Labyrinth design development]({{ '/assets/resources/treasure-hunt-map-iterations.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/treasure-hunt-map-iterations.png' | relative_url }}" alt="Labyrinth design development">
+  <figcaption>Labyrinth design development</figcaption>
+</figure>
 
 ## The process
 
@@ -42,6 +51,12 @@ A large part of the process focused on polish and game feel. Animations, screen 
 
 The main learning from the project was the value of prototyping early, changing direction when needed, and using playtesting to decide which mechanics should stay, be improved, or be removed.
 
-![Character Design]({{ '/assets/resources/treasure-hunt-characters.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/treasure-hunt-characters.png' | relative_url }}" alt="Character Design">
+  <figcaption>Character Design</figcaption>
+</figure>
 
-![Early labyrinth concept]({{ '/assets/resources/treasure-hunt-labyrinth-sketch.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/treasure-hunt-labyrinth-sketch.png' | relative_url }}" alt="Early labyrinth concept">
+  <figcaption>Early labyrinth concept</figcaption>
+</figure>

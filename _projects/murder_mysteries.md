@@ -10,7 +10,10 @@ cover: /assets/resources/murder-mysteries.png
 
 An augmented reality murder mystery game where players explore the real world to find cases, then use their phone as a window into a digital crime scene. By moving around the scene and controlling time, users investigate character movements and solve the mystery.
 
-![AR world overview]({{ '/assets/resources/murder-mysteries.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/murder-mysteries.png' | relative_url }}" alt="AR world overview">
+  <figcaption>AR world overview</figcaption>
+</figure>
 
 ## The idea
 
@@ -20,7 +23,10 @@ The goal was to create an app where users could walk through the real world, fin
 
 Inside the scene, users could move around, rewind or fast-forward time, and follow character movements to figure out what happened.
 
-![World sketch]({{ '/assets/resources/murder-mysteries-sketch.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/murder-mysteries-sketch.png' | relative_url }}" alt="World sketch">
+  <figcaption>World sketch</figcaption>
+</figure>
 
 ## Target
 
@@ -28,7 +34,10 @@ The project was aimed at people who enjoy mysteries, investigation games, geocac
 
 The experience was designed for users who like solving puzzles by exploring, observing, and piecing together information rather than simply reading clues. It also encouraged movement by placing mysteries in real-world locations.
 
-![Location-based testing]({{ '/assets/resources/murder-mysteries-test.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/murder-mysteries-test.png' | relative_url }}" alt="Location-based testing">
+  <figcaption>Location-based testing</figcaption>
+</figure>
 
 ## The process
 
@@ -44,4 +53,7 @@ The prototype was tested with three external users. The test showed that spawnin
 
 The main learning was that the technology worked as a proof of concept, but the experience needed stronger narrative design, clearer feedback, and more polish to become a complete AR mystery game.
 
-![Character movement plan]({{ '/assets/resources/murder-mysteries-timeline.png' | relative_url }})
+<figure class="media">
+  <img src="{{ '/assets/resources/murder-mysteries-timeline.png' | relative_url }}" alt="Character movement plan">
+  <figcaption>Character movement plan</figcaption>
+</figure>
