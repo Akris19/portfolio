@@ -100,8 +100,6 @@ The main learning from the project was that the technical prototype had strong p
 </figure>
 
 <figure class="media media--medium media--center">
-  <video controls preload="metadata">
-    <source src="{{ '/assets/resources/reading-train-demo.gif' | relative_url }}" type="video/gif">
-  </video>
+  <img src="{{ '/assets/resources/reading-train-demo.gif' | relative_url }}" alt="Final train prototype with digital twin">
   <figcaption>Final train prototype with digital twin</figcaption>
 </figure>
