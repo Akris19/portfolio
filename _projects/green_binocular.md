@@ -43,3 +43,4 @@ However, the users only fully understood the purpose after receiving context, an
 The main learning was that VR can support environmental education by creating immersion, but the experience still needs supporting text or other media to communicate deeper knowledge clearly.
 
 ![Hardware prototype]({{ '/assets/resources/virtual-binoculars-hardware.png' | relative_url }})
+![Video of prototype]({{ '/assets/resources/virtual-binoculars-demo.gif' | relative_url }})
