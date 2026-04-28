@@ -62,6 +62,6 @@ Later in the process, a digital twin was added in Unity. The idea was to create 
 
 The main learning from the project was that the technical prototype had strong potential, but the learning framework needed to be designed more clearly. The train worked as a robotics platform, but the full course should be structured more carefully into levels, guides, and meaningful challenges for the target group.
 
-![Assembly guide for the train prototype]({{ '/assets/resources/reading-train-assembly-guide.png' | relative_url }})}})
+![Assembly guide for the train prototype]({{ '/assets/resources/reading-train-assembly-guide.png' | relative_url }})
 
-![Final train prototype with digital twin]({{ '/assets/resources/reading-train-demo.mp4' | relative_url }})
+![Final train prototype with digital twin]({{ '/assets/resources/reading-train-demo.gif' | relative_url }})
