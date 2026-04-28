@@ -43,6 +43,94 @@ video {
   margin: 1.5rem 0;
 }
 
+.media {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.media img,
+.media video {
+  margin: 0;
+}
+
+.media--narrow {
+  max-width: 380px;
+}
+
+.media--medium {
+  max-width: 560px;
+}
+
+.media--wide {
+  max-width: 820px;
+}
+
+.media--full {
+  max-width: none;
+}
+
+.media--left {
+  margin-right: auto;
+}
+
+.media--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.media--right {
+  margin-left: auto;
+}
+
+.media--square img,
+.media--square video {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.media--landscape img,
+.media--landscape video {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.media--portrait img,
+.media--portrait video {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.media-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.media-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.media-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.media-grid__item {
+  min-width: 0;
+}
+
+.media-grid__item--span-2 {
+  grid-column: span 2;
+}
+
+.media-grid__item--span-3 {
+  grid-column: span 3;
+}
+
+.media-grid__item img,
+.media-grid__item video {
+  margin: 0;
+}
+
 code,
 pre {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
@@ -271,6 +359,11 @@ h3 {
   transform: translateY(-4px);
   border-color: rgba(140, 79, 43, 0.32);
   box-shadow: 0 18px 40px rgba(75, 47, 27, 0.12);
+}
+
+.project-card--upcoming {
+  background:
+    linear-gradient(180deg, rgba(252, 248, 241, 0.95), rgba(236, 228, 214, 0.92));
 }
 
 .project-card__meta {

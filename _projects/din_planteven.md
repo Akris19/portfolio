@@ -4,12 +4,12 @@ summary: A mobile app prototype designed to help users keep track of their plant
 year: 2023
 technologies: Unity, C#, Adobe Illustrator, Mobile App Design, UI/UX Design, Prototyping, Animation
 order: 5
-cover: /assets/resources/din-planteven.png
+cover: /assets/resources/planteven-cover.png
 ---
 
 A playful mobile app prototype designed to help people understand when their plants need water. Through simple visuals, animated feedback, and plant customisation, Din Planteven turns plant care into an easy daily routine.
 
-![Prototype setup]({{ '/assets/resources/din-planteven.png' | relative_url }})
+![Prototype setup]({{ '/assets/resources/planteven-cover.png' | relative_url }})
 
 ## The idea
 
