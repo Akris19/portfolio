@@ -45,12 +45,15 @@ The data processing guide teaches pupils how to access collected micro:bit data,
 <div class="media-grid media-grid--3">
   <figure class="media-grid__item">
     <img src="{{ '/assets/resources/diasper-green-workshop-booklet.png' | relative_url }}" alt="Workshop booklet and participants">
+  <figcaption>Workshop booklet and participants</figcaption>
   </figure>
   <figure class="media-grid__item">
     <img src="{{ '/assets/resources/diasper-green-coding-setup.png' | relative_url }}" alt="Coding and data logging setup">
+  <figcaption>Coding and data logging setup</figcaption>
   </figure>
   <figure class="media-grid__item">
     <img src="{{ '/assets/resources/diasper-green-microbit-setup.png' | relative_url }}" alt="Micro:bit setup and mobile interface">
+  <figcaption>Micro:bit setup and mobile interface</figcaption>
   </figure>
 </div>
 

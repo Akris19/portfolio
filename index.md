@@ -41,43 +41,6 @@ title: Portfolio
     </button>
     {% endfor %}
   </div>
-
-  {% for project in published_projects %}
-  {% assign modal_id = 'project-modal-published-' | append: forloop.index %}
-  <div class="project-modal" id="{{ modal_id }}" hidden>
-    <div class="project-modal__backdrop" data-modal-close></div>
-    <div class="project-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="{{ modal_id }}-title">
-      <button class="project-modal__close" type="button" aria-label="Close project" data-modal-close>&times;</button>
-
-      <div class="project-modal__inner">
-        <header class="project-modal__header">
-          {% if project.technologies %}
-          <p class="project-tech-line"><strong>Technologies:</strong> {{ project.technologies }}</p>
-          {% endif %}
-
-          {% if project.status %}
-          <p class="eyebrow">{{ project.status }}</p>
-          {% endif %}
-
-          {% if project.year %}
-          <p class="eyebrow">{{ project.year }}</p>
-          {% endif %}
-
-          <h3 id="{{ modal_id }}-title">{{ project.title }}</h3>
-
-          {% if project.summary %}
-          <p class="project-modal__summary">{{ project.summary }}</p>
-          {% endif %}
-
-        </header>
-
-        <div class="project-modal__content">
-          {{ project.content }}
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
   {% else %}
   <p>No projects are published yet.</p>
   {% endif %}
@@ -110,41 +73,77 @@ title: Portfolio
     </button>
     {% endfor %}
   </div>
+</section>
+{% endif %}
 
-  {% for project in upcoming_projects %}
-  {% assign modal_id = 'project-modal-upcoming-' | append: forloop.index %}
-  <div class="project-modal" id="{{ modal_id }}" hidden>
-    <div class="project-modal__backdrop" data-modal-close></div>
-    <div class="project-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="{{ modal_id }}-title">
-      <button class="project-modal__close" type="button" aria-label="Close project" data-modal-close>&times;</button>
+{% for project in published_projects %}
+{% assign modal_id = 'project-modal-published-' | append: forloop.index %}
+<div class="project-modal" id="{{ modal_id }}" hidden>
+  <div class="project-modal__backdrop" data-modal-close></div>
+  <div class="project-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="{{ modal_id }}-title">
+    <button class="project-modal__close" type="button" aria-label="Close project" data-modal-close>&times;</button>
 
-      <div class="project-modal__inner">
-        <header class="project-modal__header">
-          {% if project.technologies %}
-          <p class="project-tech-line"><strong>Technologies:</strong> {{ project.technologies }}</p>
-          {% endif %}
+    <div class="project-modal__inner">
+      <header class="project-modal__header">
+        {% if project.technologies %}
+        <p class="project-tech-line"><strong>Technologies:</strong> {{ project.technologies }}</p>
+        {% endif %}
 
-          {% if project.status %}
-          <p class="eyebrow">{{ project.status }}</p>
-          {% endif %}
+        {% if project.status %}
+        <p class="eyebrow">{{ project.status }}</p>
+        {% endif %}
 
-          {% if project.year %}
-          <p class="eyebrow">{{ project.year }}</p>
-          {% endif %}
+        {% if project.year %}
+        <p class="eyebrow">{{ project.year }}</p>
+        {% endif %}
 
-          <h3 id="{{ modal_id }}-title">{{ project.title }}</h3>
+        <h3 id="{{ modal_id }}-title">{{ project.title }}</h3>
 
-          {% if project.summary %}
-          <p class="project-modal__summary">{{ project.summary }}</p>
-          {% endif %}
-        </header>
+        {% if project.summary %}
+        <p class="project-modal__summary">{{ project.summary }}</p>
+        {% endif %}
+      </header>
 
-        <div class="project-modal__content">
-          {{ project.content }}
-        </div>
+      <div class="project-modal__content">
+        {{ project.content }}
       </div>
     </div>
   </div>
-  {% endfor %}
-</section>
-{% endif %}
+</div>
+{% endfor %}
+
+{% for project in upcoming_projects %}
+{% assign modal_id = 'project-modal-upcoming-' | append: forloop.index %}
+<div class="project-modal" id="{{ modal_id }}" hidden>
+  <div class="project-modal__backdrop" data-modal-close></div>
+  <div class="project-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="{{ modal_id }}-title">
+    <button class="project-modal__close" type="button" aria-label="Close project" data-modal-close>&times;</button>
+
+    <div class="project-modal__inner">
+      <header class="project-modal__header">
+        {% if project.technologies %}
+        <p class="project-tech-line"><strong>Technologies:</strong> {{ project.technologies }}</p>
+        {% endif %}
+
+        {% if project.status %}
+        <p class="eyebrow">{{ project.status }}</p>
+        {% endif %}
+
+        {% if project.year %}
+        <p class="eyebrow">{{ project.year }}</p>
+        {% endif %}
+
+        <h3 id="{{ modal_id }}-title">{{ project.title }}</h3>
+
+        {% if project.summary %}
+        <p class="project-modal__summary">{{ project.summary }}</p>
+        {% endif %}
+      </header>
+
+      <div class="project-modal__content">
+        {{ project.content }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

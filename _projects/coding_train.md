@@ -26,9 +26,11 @@ The project was also designed around the idea of gamifying the learning process.
 <div class="media-grid media-grid--2">
   <figure class="media-grid__item media media--landscape">
     <img src="{{ '/assets/resources/reading-train-early-prototype.png' | relative_url }}" alt="Early train prototype">
+  <figcaption>Early train prototype</figcaption>
   </figure>
   <figure class="media-grid__item media media--landscape">
     <img src="{{ '/assets/resources/reading-train-early-prototype_1.png' | relative_url }}" alt="Early train prototype with wagon">
+  <figcaption>Early train prototype with wagon</figcaption>
   </figure>
 </div>
 

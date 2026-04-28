@@ -46,11 +46,25 @@ video {
 .media {
   width: 100%;
   margin: 1.5rem 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .media img,
 .media video {
   margin: 0;
+}
+
+.media-grid__item {
+  min-width: 0;
+  text-align: center;
+}
+
+.media-grid__item img,
+.media-grid__item video {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .media figcaption,
@@ -59,6 +73,7 @@ video {
   color: var(--muted);
   font-size: 0.9rem;
   line-height: 1.45;
+  text-align: center;
 }
 
 .media--narrow {
@@ -120,10 +135,6 @@ video {
 
 .media-grid--3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.media-grid__item {
-  min-width: 0;
 }
 
 .media-grid__item--span-2 {
