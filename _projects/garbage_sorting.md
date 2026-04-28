@@ -4,6 +4,7 @@ summary: An interactive web documentary about waste sorting in Odense, designed 
 year: 2022
 technologies: HTML, CSS, JavaScript, Unity, C#, Adobe Illustrator, Adobe After Effects, LottieFiles, Lottie Interactivity
 order: 13
+status: Vertical Slice
 cover: /assets/resources/waste-sorting-webdoc.png
 ---
 

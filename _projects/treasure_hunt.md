@@ -4,6 +4,7 @@ summary: A two-player treasure hunting game set inside a pyramid labyrinth, wher
 year: 2021
 technologies: Unity, C#, 2D Game Design, Level Design, Puzzle Design, Sound Design, Playtesting, Game Feel, UI Design, Trello
 order: 8
+status: Finished
 cover: /assets/resources/treasure-hunt-cover.png
 ---
 

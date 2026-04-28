@@ -4,6 +4,7 @@ summary: A location-based Augmented Reality detective game where users explore t
 year: 2023
 technologies: Augmented Reality, Unity, C#, GPS, Location-Based Interaction
 order: 12
+status: Vertical Slice
 cover: /assets/resources/murder-mysteries.png
 ---
 

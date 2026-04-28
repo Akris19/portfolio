@@ -4,6 +4,7 @@ summary: A cross-media detective experience where users follow a comic story, in
 year: 2023
 technologies: Unity, C#, Adobe InDesign, Adobe Illustrator
 order: 4
+status: Vertical Slice
 cover: /assets/resources/skolepatruljen.png
 ---
 

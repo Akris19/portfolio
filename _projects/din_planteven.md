@@ -4,6 +4,7 @@ summary: A mobile app prototype designed to help users keep track of their plant
 year: 2023
 technologies: Unity, C#, Adobe Illustrator, Mobile App Design, UI/UX Design, Prototyping, Animation
 order: 5
+status: Finished
 cover: /assets/resources/planteven-cover.png
 ---
 

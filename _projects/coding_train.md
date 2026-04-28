@@ -4,6 +4,7 @@ summary: A programmable train prototype designed for children and young people, 
 year: 2025
 technologies: Raspberry Pi Pico W, MicroPython, Unity, C#, UDP, WiFi, Multithreading, Fusion 360, 3D Printing, Bambu Lab A1-series, Servo Motors, DC Motors, Color Sensor, IR Line Sensor, Digital Twin
 order: 3
+status: High-fidelity Prototype
 cover: /assets/resources/reading-train-cover.png
 ---
 

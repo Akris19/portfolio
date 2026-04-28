@@ -4,6 +4,7 @@ summary: An interactive graphic novel where the player acts as the king’s advi
 year: 2022
 technologies: Ren'Py, Twine, Pixel Art, Interactive Narrative, Branching Storytelling, Game Writing, UI Design, Trello
 order: 7
+status: Vertical Slice
 cover: /assets/resources/kings-advisor-cover.png
 ---
 

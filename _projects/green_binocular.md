@@ -4,6 +4,7 @@ summary: A Virtual Reality installation concept for Økolariet, where visitors c
 year: 2023
 technologies: Virtual Reality, Unity, C#, Arduino, C/C++, Google Cardboard, 3D Modelling
 order: 11
+status: High-fidelity Prototype
 cover: /assets/resources/virtual-binoculars.png
 ---
 

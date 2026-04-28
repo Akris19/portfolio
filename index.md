@@ -9,14 +9,19 @@ title: Portfolio
   </div>
 
   {% assign all_projects = site.projects | sort: "order" %}
-  {% assign upcoming_projects = all_projects | where: "upcoming", true %}
+  {% assign upcoming_projects = "" | split: "" %}
+  {% assign published_projects = "" | split: "" %}
+  {% for project in all_projects %}
+    {% if project.status == "Upcoming" or project.upcoming == true %}
+      {% assign upcoming_projects = upcoming_projects | push: project %}
+    {% else %}
+      {% assign published_projects = published_projects | push: project %}
+    {% endif %}
+  {% endfor %}
   {% if all_projects.size > 0 %}
   <div class="project-grid">
-    {% assign published_count = 0 %}
-    {% for project in all_projects %}
-    {% unless project.upcoming %}
-    {% assign published_count = published_count | plus: 1 %}
-    {% assign modal_id = 'project-modal-published-' | append: published_count %}
+    {% for project in published_projects %}
+    {% assign modal_id = 'project-modal-published-' | append: forloop.index %}
     <button class="project-card" type="button" data-modal-target="{{ modal_id }}" aria-haspopup="dialog" aria-controls="{{ modal_id }}">
       {% if project.cover %}
       <figure class="project-card__cover">
@@ -34,15 +39,11 @@ title: Portfolio
       <p>{{ project.summary | default: project.excerpt | strip_html | truncate: 180 }}</p>
       <span class="project-card__cta">Open project</span>
     </button>
-    {% endunless %}
     {% endfor %}
   </div>
 
-  {% assign published_count = 0 %}
-  {% for project in all_projects %}
-  {% unless project.upcoming %}
-  {% assign published_count = published_count | plus: 1 %}
-  {% assign modal_id = 'project-modal-published-' | append: published_count %}
+  {% for project in published_projects %}
+  {% assign modal_id = 'project-modal-published-' | append: forloop.index %}
   <div class="project-modal" id="{{ modal_id }}" hidden>
     <div class="project-modal__backdrop" data-modal-close></div>
     <div class="project-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="{{ modal_id }}-title">
@@ -52,6 +53,10 @@ title: Portfolio
         <header class="project-modal__header">
           {% if project.technologies %}
           <p class="project-tech-line"><strong>Technologies:</strong> {{ project.technologies }}</p>
+          {% endif %}
+
+          {% if project.status %}
+          <p class="eyebrow">{{ project.status }}</p>
           {% endif %}
 
           {% if project.year %}
@@ -72,7 +77,6 @@ title: Portfolio
       </div>
     </div>
   </div>
-  {% endunless %}
   {% endfor %}
   {% else %}
   <p>No projects are published yet.</p>
@@ -98,7 +102,7 @@ title: Portfolio
 
       <div class="project-card__meta">
         <span>{{ project.year | default: "Upcoming" }}</span>
-        <span>Upcoming</span>
+        <span>{{ project.status | default: "Upcoming" }}</span>
       </div>
       <h3>{{ project.title }}</h3>
       <p>{{ project.summary | default: project.excerpt | strip_html | truncate: 180 }}</p>
@@ -118,6 +122,10 @@ title: Portfolio
         <header class="project-modal__header">
           {% if project.technologies %}
           <p class="project-tech-line"><strong>Technologies:</strong> {{ project.technologies }}</p>
+          {% endif %}
+
+          {% if project.status %}
+          <p class="eyebrow">{{ project.status }}</p>
           {% endif %}
 
           {% if project.year %}

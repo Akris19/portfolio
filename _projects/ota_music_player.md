@@ -4,5 +4,5 @@ summary: Inspired by the LEGO Smart Brick the small music player can by receivin
 year: 2026
 technologies: Fusion 360, Electronics, Eagle, KiCad, Micropython, Raspberry Pi Pico W
 order: 17
-upcoming: true
+status: Upcoming
 ---

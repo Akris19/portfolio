@@ -4,6 +4,7 @@ summary: A two-person Virtual Reality game aimed at high school students, where 
 year: 2023
 technologies: Virtual Reality, Unity, C#, Google Cardboard, Raspberry Pi Pico W, BNO055, Socket.IO, Node.js, Google Cloud Platform, Android App, PCB Design, Eagle, KiCad, Laser Cutting, User Testing
 order: 6
+status: Finished
 cover: /assets/resources/mathbox-cover.png
 ---
 
