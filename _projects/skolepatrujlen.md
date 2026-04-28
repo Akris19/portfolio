@@ -3,7 +3,7 @@ title: Skolepatruljen
 summary: A cross-media detective experience where users follow a comic story, investigate clues through games and social media, and submit their own theory about the culprit.
 year: 2023
 technologies: Unity, C#, Adobe InDesign, Adobe Illustrator
-order: 3
+order: 4
 cover: /assets/resources/skolepatruljen.png
 ---
 

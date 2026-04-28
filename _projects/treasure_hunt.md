@@ -3,7 +3,7 @@ title: Treasure Hunt
 summary: A two-player treasure hunting game set inside a pyramid labyrinth, where players compete to collect treasure, avoid mummies, and escape before time runs out.
 year: 2021
 technologies: Unity, C#, 2D Game Design, Level Design, Puzzle Design, Sound Design, Playtesting, Game Feel, UI Design, Trello
-order: 9
+order: 8
 cover: /assets/resources/treasure-hunt-cover.png
 ---
 

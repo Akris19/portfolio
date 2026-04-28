@@ -3,7 +3,7 @@ title: Waste Sorting Webdoc
 summary: An interactive web documentary about waste sorting in Odense, designed to make public information more visual, engaging, and easier to understand through animation, interaction, and learning design.
 year: 2022
 technologies: HTML, CSS, JavaScript, Unity, C#, Adobe Illustrator, Adobe After Effects, LottieFiles, Lottie Interactivity
-order: 4
+order: 13
 cover: /assets/resources/waste-sorting-webdoc.png
 ---
 

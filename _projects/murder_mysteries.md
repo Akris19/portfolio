@@ -3,7 +3,7 @@ title: Murder Mysteries
 summary: A location-based Augmented Reality detective game where users explore the real world, find murder cases through GPS, and investigate digital crime scenes through their smartphone.
 year: 2023
 technologies: Augmented Reality, Unity, C#, GPS, Location-Based Interaction
-order: 7
+order: 12
 cover: /assets/resources/murder-mysteries.png
 ---
 

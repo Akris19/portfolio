@@ -1,0 +1,7 @@
+---
+title: OTA Music Player
+summary: Inspired by the LEGO Smart Brick the small music player can by receiving OTA messages generate short audio files and play them via it's onboard synthesizer.
+year: 2026
+technologies: Fusion 360, Electronics, Eagle, KiCad, Micropython, Raspberry Pi Pico W
+order: 17
+---

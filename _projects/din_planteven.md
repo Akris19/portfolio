@@ -3,7 +3,7 @@ title: Din Planteven
 summary: A mobile app prototype designed to help users keep track of their plants, understand when they need water, and build a better plant-care routine through simple visuals and playful feedback.
 year: 2023
 technologies: Unity, C#, Adobe Illustrator, Mobile App Design, UI/UX Design, Prototyping, Animation
-order: 2
+order: 5
 cover: /assets/resources/din-planteven.png
 ---
 

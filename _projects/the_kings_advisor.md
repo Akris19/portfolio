@@ -3,7 +3,7 @@ title: The King's Advisor
 summary: An interactive graphic novel where the player acts as the king’s advisor and must make political and moral decisions that shape the future of a fantasy kingdom.
 year: 2022
 technologies: Ren'Py, Twine, Pixel Art, Interactive Narrative, Branching Storytelling, Game Writing, UI Design, Trello
-order: 8
+order: 7
 cover: /assets/resources/kings-advisor-cover.png
 ---
 

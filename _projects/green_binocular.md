@@ -3,7 +3,7 @@ title: The Virtual Binoculars
 summary: A Virtual Reality installation concept for Økolariet, where visitors can explore how agriculture and nitrate levels affect rivers, water quality, and surrounding nature.
 year: 2023
 technologies: Virtual Reality, Unity, C#, Arduino, C/C++, Google Cardboard, 3D Modelling
-order: 6
+order: 11
 cover: /assets/resources/virtual-binoculars.png
 ---
 

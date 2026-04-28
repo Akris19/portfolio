@@ -3,7 +3,7 @@ title: Math Box
 summary: A two-person Virtual Reality game aimed at high school students, where users can enhance and improve their mathematical skills by communicating together. The two players must use math to solve challenges in a shared puzzle experience.
 year: 2023
 technologies: Virtual Reality, Unity, C#, Google Cardboard, Raspberry Pi Pico W, BNO055, Socket.IO, Node.js, Google Cloud Platform, Android App, PCB Design, Eagle, KiCad, Laser Cutting, User Testing
-order: 5
+order: 6
 cover: /assets/resources/mathbox-cover.png
 ---
 
