@@ -7,7 +7,7 @@ intro: I build interactive systems, prototypes, and digital experiences with a f
 
 I am a Software Engineering MSc student at SDU specializing in interactive systems for learning, with a strong focus on teaching programming and technology to children and young learners. My work combines software development, hardware integration, and pedagogy to create engaging, hands-on learning experiences.
 
-I have experience developing educational platforms that integrate block-based and text-based programming with microcontrollers, as well as designing cyber-physical systems that merge digital interaction with physical play. My projects often incorporate emerging technologies such as machine learning, computer vision, and procedural generation.
+I have experience developing educational platforms that integrate block-based and text-based programming with microcontrollers, as well as designing cyber-physical systems that merge digital interaction with physical play. 
 
 Alongside my academic work, I have contributed to multiple research and development projects within STEM education, collaborating with international partners and developing teaching concepts, workshops, and learning materials.
 
