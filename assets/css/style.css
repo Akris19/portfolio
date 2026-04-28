@@ -528,14 +528,14 @@ h3 {
 
 .project-modal__content h2 {
   margin-top: 2rem;
-  font-size: clamp(2rem, 4.2vw, 3.2rem);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 600;
   line-height: 1.1;
 }
 
 .project-modal__content h3 {
   margin-top: 2rem;
-  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 600;
   line-height: 1.14;
 }
@@ -640,14 +640,14 @@ h3 {
 
 .project-page__content h2 {
   margin-top: 2rem;
-  font-size: clamp(2rem, 4.2vw, 3.2rem);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 600;
   line-height: 1.1;
 }
 
 .project-page__content h3 {
   margin-top: 2rem;
-  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 600;
   line-height: 1.14;
 }

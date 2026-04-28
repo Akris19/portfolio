@@ -2,7 +2,7 @@
 title: STEPS.
 summary: A continuation of DiASper Green where focus is on vocational education.
 year: 2026
-technologies: ´
+technologies:
 order: 18
 status: Upcoming
 cover: /assets/resources/steps-cover.png
