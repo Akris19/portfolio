@@ -10,7 +10,7 @@ cover: /assets/resources/skolepatruljen.png
 
 A cross-media mystery project where the audience becomes part of the investigation. Through a comic, mini-game, website, Facebook page, and Google Forms report, users can collect clues and submit their own theory about the culprit.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/skolepatruljen.png' | relative_url }}" alt="Website overview">
   <figcaption>Website overview</figcaption>
 </figure>
@@ -23,7 +23,7 @@ The project is built around a three-part comic, where each part represents an ac
 
 Users can explore clues through games, follow updates on Facebook, and submit an investigation report through Google Forms to guess who committed the crime.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/skolepatruljen-comic.png' | relative_url }}" alt="Comic pages">
   <figcaption>Comic pages</figcaption>
 </figure>
@@ -36,7 +36,7 @@ It also targeted fans of Fillmore! and people who grew up watching Disney Channe
 
 The experience was designed for users who like to actively participate in a story rather than passively consume it. The audience is encouraged to search for evidence, solve puzzles, and form their own theory about the case.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/skolepatruljen-facebook.png' | relative_url }}" alt="Social media posts">
   <figcaption>Social media posts</figcaption>
 </figure>
@@ -53,12 +53,12 @@ No formal user test is described in the project report, but the project was buil
 
 The main focus of the process was to create a connected cross-media experience where each platform had a clear role: the comic delivered the story, the game provided investigation, Facebook created communication, the website connected everything, and Google Forms allowed the audience to solve the case.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/skolepatruljen-scenes.png' | relative_url }}" alt="Scene layouts">
   <figcaption>Scene layouts</figcaption>
 </figure>
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/skolepatruljen-game.png' | relative_url }}" alt="Cryptogram game">
   <figcaption>Cryptogram game</figcaption>
 </figure>

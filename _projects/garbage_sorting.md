@@ -10,7 +10,7 @@ cover: /assets/resources/waste-sorting-webdoc.png
 
 An interactive web documentary that makes waste sorting easier to understand through animation, visual storytelling, and playful interaction. The project turns dry public information into a more engaging learning experience for citizens in Odense.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/waste-sorting-webdoc.png' | relative_url }}" alt="Webdoc overview">
   <figcaption>Webdoc overview</figcaption>
 </figure>
@@ -23,7 +23,7 @@ Instead of only presenting text, the idea was to create a webdoc — an interact
 
 The goal was to help users understand what to sort, why sorting matters, and how different types of waste should be handled. The project built on Odense Renovation’s existing sorting brochure, but aimed to make the information more visual, easier to follow, and more memorable.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/waste-sorting-odense.png' | relative_url }}" alt="Odense visual identity">
   <figcaption>Odense visual identity</figcaption>
 </figure>
@@ -36,7 +36,7 @@ The project was especially aimed at users who want quick, practical guidance: wh
 
 The local Odense setting was important because waste sorting systems can vary between municipalities.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/waste-sorting-food.png' | relative_url }}" alt="Food waste section">
   <figcaption>Food waste section</figcaption>
 </figure>
@@ -57,22 +57,22 @@ The final webdoc included scroll-based animations, interactive flip cards with e
 
 The main learning from the project was the value of narrowing the scope earlier, testing more often, and using visuals and interaction to make educational information easier to understand.
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/waste-sorting-storyboard.png' | relative_url }}" alt="Storyboard sketches">
   <figcaption>Storyboard sketches</figcaption>
 </figure>
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/waste-sorting-paper-prototype.png' | relative_url }}" alt="Paper prototype">
   <figcaption>Paper prototype</figcaption>
 </figure>
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/waste-sorting-truck.png' | relative_url }}" alt="Waste journey animation">
   <figcaption>Waste journey animation</figcaption>
 </figure>
 
-<figure class="media">
+<figure class="media media--medium">
   <img src="{{ '/assets/resources/waste-sorting-flip-cards.png' | relative_url }}" alt="Flip cards">
   <figcaption>Flip cards</figcaption>
 </figure>
