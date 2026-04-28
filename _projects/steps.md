@@ -5,6 +5,7 @@ year: 2026
 technologies: ´
 order: 18
 status: Upcoming
+cover: /assets/resources/steps-cover.png
 ---
 
 STEPS is a continuation of earlier cross-border educational initiatives such as DiASper Green, focusing on equipping students with competencies in digital technologies, sustainability, and future-oriented skills.
