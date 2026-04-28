@@ -97,7 +97,7 @@ title: Portfolio
         <p class="eyebrow">{{ project.year }}</p>
         {% endif %}
 
-        <h3 id="{{ modal_id }}-title">{{ project.title }}</h3>
+        <h1 id="{{ modal_id }}-title">{{ project.title }}</h1>
 
         {% if project.summary %}
         <p class="project-modal__summary">{{ project.summary }}</p>
@@ -133,7 +133,7 @@ title: Portfolio
         <p class="eyebrow">{{ project.year }}</p>
         {% endif %}
 
-        <h3 id="{{ modal_id }}-title">{{ project.title }}</h3>
+        <h1 id="{{ modal_id }}-title">{{ project.title }}</h1>
 
         {% if project.summary %}
         <p class="project-modal__summary">{{ project.summary }}</p>
