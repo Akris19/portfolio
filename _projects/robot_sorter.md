@@ -5,4 +5,5 @@ year: 2023
 technologies: Unity, Vuforia Engine, C#, MapsSDK-Unity
 order: 14
 status: Upcoming
+cover: /assets/resources/robot-sorter-cover.png
 ---
