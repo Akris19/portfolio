@@ -13,7 +13,7 @@ Alongside my academic work, I have contributed to multiple research and developm
 
 Since 2022, I have volunteered at Teknologiskolen, where I have taught programming, software development, robotics, electronics, and mechanical engineering. I have been responsible for designing curricula, materials, and project-based learning experiences across six camps and two seasonal courses.
 
-Overall, my profile sits at the intersection of software engineering, education, and interactive design, with a focus on making complex technologies accessible, creative, and meaningful for learners.
+Overall, my profile sits at the intersection of software and hardware with a focus on making complex technologies accessible, creative, and meaningful for learners.
 
 ## Contact
 
