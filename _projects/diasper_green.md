@@ -1,6 +1,6 @@
 ---
 title: DiASper Green
-summary: 
+summary: A Danish-German Educational project with focus integrating technology into the classroom.
 year: 2024
 technologies: Fusion 360, 3D Printing, Electronics, Fritzing, Adobe Premiere Pro, MakeCode, micro:bit, Laser Cutting, Adobe Illustrator
 order: 15
