@@ -12,7 +12,7 @@ Since 2022, I have volunteered at Teknologiskolen, teaching
 programming, robotics, electronics, and mechanical engineering across camps and courses.
 
 <figure class="media media--medium">
-  <img src="{{ '/assets/resources/teknologiskolen-cover.jpeg' | relative_url }}" alt="The Coding Train V2">
+  <img src="{{ '/assets/resources/teknologiskolen-cover.png' | relative_url }}" alt="The Coding Train V2">
   <figcaption>A student and me programming the MIDI-controller</figcaption>
 </figure>
 
@@ -84,11 +84,11 @@ Students had to create music by sending midi commands. It uses custom made analo
     <figcaption>Student testing</figcaption>
   </figure>
    <figure class="media-grid__item">
-    <img src="{{ '/assets/resources/teknologiskolen-midi-2.jpeg' | relative_url }}" alt="The system is driving by a DC-motor rotating the sun gear">
+    <img src="{{ '/assets/resources/teknologiskolen-midi-2.png' | relative_url }}" alt="The system is driving by a DC-motor rotating the sun gear">
     <figcaption>The final display</figcaption>
   </figure>
   <figure class="media-grid__item">
-    <img src="{{ '/assets/resources/teknologiskolen-midi-3.jpeg' | relative_url }}" alt="Child assemblying the pond">
+    <img src="{{ '/assets/resources/teknologiskolen-midi-3.png' | relative_url }}" alt="Child assemblying the pond">
     <figcaption>Students testing</figcaption>
   </figure>
 </div>
