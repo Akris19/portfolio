@@ -18,10 +18,14 @@ During my time at Teknologiskolen I have created and co-created several projects
 ## Ice skating pond
 My first project was an ice skating pond targeted children age 6 to 10. It uses a planetary gear box and magnets which are offset on the drive gears to rotate small figures around the pond. It allows the child to be creative and to take ownership by create their own small figures. It uses a micro:bit for controls and a DC-motor to rotate the sun gear.
 
-<div class="media-grid media-grid--2">
+<div class="media-grid media-grid--3">
   <figure class="media-grid__item">
     <img src="{{ '/assets/resources/teknologiskolen.pond.png' | relative_url }}" alt="First prototype which was design with help from my season course: Robotspirene">
     <figcaption>First prototype which was design with help from my season course: Robotspirene</figcaption>
+  </figure>
+   <figure class="media-grid__item">
+    <img src="{{ '/assets/resources/teknologiskolen-ice-demo.gif' | relative_url }}" alt="The system is driving by a DC-motor rotating the sun gear">
+    <figcaption>The system is driving by a DC-motor rotating the sun gear</figcaption>
   </figure>
   <figure class="media-grid__item">
     <img src="{{ '/assets/resources/teknologiskolen-ice.png' | relative_url }}" alt="Child assemblying the pond">
@@ -30,6 +34,7 @@ My first project was an ice skating pond targeted children age 6 to 10. It uses 
 </div>
 
 ## SumoRobot
+
 
 ## RGB Light Triangle 
 
