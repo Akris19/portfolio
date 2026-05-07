@@ -98,15 +98,15 @@ Using two stepper motors the students was tasked to assemble and draw shapes and
 
 <div class="media-grid media-grid--3">
   <figure class="media-grid__item">
-    <img src="{{ '/assets/resources/teknologiskolen-pond.png' | relative_url }}" alt="First prototype which was design with help from my season course: Robotspirene">
-    <figcaption>First prototype which was design with help from my season course: Robotspirene</figcaption>
+    <img src="{{ '/assets/resources/teknologiskolen-sand-1.png' | relative_url }}" alt="First prototype which was design with help from my season course: Robotspirene">
+    <figcaption>Student showcasing the final machine</figcaption>
   </figure>
    <figure class="media-grid__item">
-    <img src="{{ '/assets/resources/teknologiskolen-ice-demo.gif' | relative_url }}" alt="The system is driving by a DC-motor rotating the sun gear">
-    <figcaption>The system is driving by a DC-motor rotating the sun gear</figcaption>
+    <img src="{{ '/assets/resources/teknologiskolen-sand-demo.gif' | relative_url }}" alt="The system is driving by a DC-motor rotating the sun gear">
+    <figcaption>TDemostration of the internal parts</figcaption>
   </figure>
   <figure class="media-grid__item">
-    <img src="{{ '/assets/resources/teknologiskolen-ice.png' | relative_url }}" alt="Child assemblying the pond">
-    <figcaption>Student assemblying the pond</figcaption>
+    <img src="{{ '/assets/resources/teknologiskolen-sand-2.png' | relative_url }}" alt="Child assemblying the pond">
+    <figcaption>Student testing</figcaption>
   </figure>
 </div>
